@@ -1,0 +1,26 @@
+body
+{
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    margin-top: 95px;
+}
+
+.title
+{
+    font-weight: bold;
+    color: var(--headers);
+}
+
+.button
+{
+    border: none;
+    border-radius: 8px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+}

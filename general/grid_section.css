@@ -1,0 +1,103 @@
+.grid-section
+{
+    position: relative;
+
+    width: 100vw;
+
+    max-width: 600px;
+    max-height: 600px;
+
+    min-width: 300px;
+    min-height: 300px;
+
+    aspect-ratio: 1/1;
+}
+
+.grid-cells
+{
+    position: absolute;
+    
+    left: 0;
+    top: 0;
+
+    margin: 20px;
+    margin-top: 0;
+
+    width: calc(100% - 40px);
+    height: calc(100% - 20px);
+
+    max-width: 600px;
+}
+.sudoku-cell
+{
+    background-color: transparent;
+
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: var(--background-light);
+
+    width: calc(100% / 9);
+    aspect-ratio: 1 / 1;
+}
+
+.grid-overlay
+{
+    position: absolute;
+    
+    left: 0;
+    top: 0;
+
+    margin: 20px;
+    margin-top: 0;
+
+    width: calc(100% - 40px);
+    height: calc(100% - 20px);
+
+    max-width: 600px;
+}
+.sudoku-overlay-cell
+{
+    background-color: transparent;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--accent-light);
+
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
+}
+
+.grid-cells-inputs
+{
+    position: absolute;
+    
+    left: 0;
+    top: 0;
+
+    margin: 20px;
+    margin-top: 0;
+
+    width: calc(100% - 40px);
+    height: calc(100% - 20px);
+
+    max-width: 600px;
+}
+.sudoku-cell-input
+{
+    background-color: transparent;
+
+    border: transparent;
+
+    width: calc(100% / 9);
+    aspect-ratio: 1 / 1;
+
+    font-size: 3cqi;
+    color: var(--headers);
+
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

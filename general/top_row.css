@@ -1,0 +1,27 @@
+.top-row
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: calc(100vw - 40px);
+    height: 75px;
+
+    min-width: 300px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: var(--background-light);
+}
+
+.new-game-button
+{
+    background-color: var(--accent-light);
+
+    height: 35px;
+    width: 120px;
+}
